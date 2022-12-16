@@ -4,7 +4,7 @@ import type * as activitiesTypes from "./activity";
 const activities = proxyActivities<typeof activitiesTypes>({
   startToCloseTimeout: "50m",
   retry: {
-    maximumAttempts: 50,
+    maximumAttempts: 5,
   },
 });
 
