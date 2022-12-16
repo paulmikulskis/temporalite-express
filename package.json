@@ -1,0 +1,22 @@
+{
+  "name": "temporalite-express",
+  "version": "1.0.0",
+  "description": "Boots an ExpressJS app within a Temporal Workflow",
+  "main": "src/client.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@temporalio/activity": "^1.4.4",
+    "@temporalio/client": "^1.4.4",
+    "@temporalio/worker": "^1.4.4",
+    "@temporalio/workflow": "^1.4.4",
+    "@types/express": "^4.17.15",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "2",
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.2",
+    "ts-node": "^10.9.1"
+  }
+}

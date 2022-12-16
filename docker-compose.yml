@@ -1,0 +1,6 @@
+services:
+  temporalite:
+    build: temporalite-docker
+    ports:
+      - 7233:7233
+      - 8233:8233
